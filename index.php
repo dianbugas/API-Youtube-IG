@@ -139,7 +139,7 @@ $latestVidioId = $result['items'][0]['id']['vidioId'];
             </div>
             <div class="col-md-8">
               <h5>@dian13</h5>
-              <p>7000 Followers.</p>
+              <p><?= $followersIG; ?> Followers.</p>
             </div>
           </div>
           <div class="row mt-3 pb-3">
