@@ -121,12 +121,13 @@ $latestVidioId = $result['items'][0]['id']['vidioId'];
             <div class="col-md-8">
               <h5><?= $chennelname; ?></h5>
               <p><?= $subscriber; ?> Subscribers.</p>
+              <div class="g-ytsubscribe" data-channelid="UCkXmLjEr95LVtGuIm3l2dPg" data-layout="default" data-count="default"></div>
             </div>
           </div>
           <div class="row mt-3 pb-3">
             <div class="col">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $latesVideoId; ?>?rel=0"
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/channel/<?= $latesVideoId; ?>?rel=0"
                   allowfullscreen></iframe>
               </div>
             </div>
@@ -313,6 +314,6 @@ $latestVidioId = $result['items'][0]['id']['vidioId'];
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
     crossorigin="anonymous"></script>
+  <script src="https://apis.google.com/js/platform.js"></script>
 </body>
-
 </html>
